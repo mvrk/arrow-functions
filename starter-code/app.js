@@ -115,7 +115,7 @@ let sum = function(a, b, c, d) {
 // TODO: Uncomment the following line of code to see the output in the browser console
 console.log(sum(1, 2, 3, 4));
 
-//STEP 10 single line solution
+//STEP 10-1 single line solution
 let sumOneLine = (a, b, c, d) => `${a + b + c + d}`;
 console.log(sumOneLine(1, 2, 3, 4));
 
@@ -138,8 +138,13 @@ let sumAndProduct = function(a, b) {
   return [sum, product];
 };
 
+
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(sumAndProduct(3, 9));
+console.log(sumAndProduct(3, 9));
+
+//STEP 10-2 single line solution
+let sumProductOneLine = (a ,b) => `[${a + b},${a * b}]`;
+console.log(sumProductOneLine(3, 9));
 
 
 let message = function(name) {
