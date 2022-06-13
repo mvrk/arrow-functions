@@ -132,7 +132,6 @@ let objectLit = function() {
 console.log(objectLit());
 
 //STEP 10-2 single line solution
-
 let objectOneLine = () => ({
   key1: 'value1',
   key2: 'value2',
@@ -164,7 +163,8 @@ let message = function(name) {
 // TODO: Uncomment the following line of code to see the output in the browser console
 console.log(message('Allie'));
 //STEP 10-4 single line solution
-
+let messageOneLine = (name) => `Hello, ${name}!`;
+console.log(messageOneLine('Allie'));
 
 
 
