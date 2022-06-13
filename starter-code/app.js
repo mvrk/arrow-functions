@@ -118,7 +118,7 @@ console.log(sum(1, 2, 3, 4));
 //STEP 10-1 single line solution
 let sumOneLine = (a, b, c, d) => `${a + b + c + d}`;
 console.log(sumOneLine(1, 2, 3, 4));
-
+//----------------------------------
 
 let objectLit = function() {
   return {
@@ -129,8 +129,17 @@ let objectLit = function() {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(objectLit());
+console.log(objectLit());
 
+//STEP 10-2 single line solution
+
+let objectOneLine = () => ({
+  key1: 'value1',
+  key2: 'value2',
+  key3: 'value3',
+});
+console.log(objectOneLine());
+//-------------------------------
 
 let sumAndProduct = function(a, b) {
   let sum = a + b;
@@ -142,17 +151,21 @@ let sumAndProduct = function(a, b) {
 // TODO: Uncomment the following line of code to see the output in the browser console
 console.log(sumAndProduct(3, 9));
 
-//STEP 10-2 single line solution
-let sumProductOneLine = (a ,b) => `[${a + b},${a * b}]`;
-console.log(sumProductOneLine(3, 9));
 
+//STEP 10-3 single line solution
+let sumProductOneLine = (a ,b) => `[${a + b}, ${a * b}]`;
+console.log(sumProductOneLine(3, 9));
+//-----------------------------------
 
 let message = function(name) {
   return `Hello, ${name}!`;
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(message('Allie'));
+console.log(message('Allie'));
+//STEP 10-4 single line solution
+
+
 
 
 let Student = function(name, age, hometown) {
@@ -165,7 +178,8 @@ let joe = new Student('Joe', 'Schmoe', 100);
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 // Note that the arrow function will cause this code to break!
-// console.log(joe);
+console.log(joe);
+//STEP 10-2 single line solution
 
 // TODO: After viewing the previous console.log(), return the code to a working state.
 
@@ -177,7 +191,8 @@ Student.prototype.greeting = function() {
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 // Note that the arrow function will cause this method to break!
-// console.log(joe.greeting());
+console.log(joe.greeting());
+//STEP 10-2 single line solution
 
 // TODO: After viewing the previous console.log(), return the code to a working state.
 
@@ -188,7 +203,8 @@ Student.courseName = function() {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(Student.courseName());
+console.log(Student.courseName());
+//STEP 10-2 single line solution
 
 
 
